@@ -24,6 +24,10 @@ end
 
 gem 'jquery-rails', '3.0.4'
 
+group :doc do
+	gem 'sdoc', '0.3.20', require:false
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
